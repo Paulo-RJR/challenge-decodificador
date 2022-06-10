@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="letraa.png" class="vetor-a" alt="latra a minúscula">
+        </header>
+        <main>
+            <section>
+                <textarea cols="43" rows="6" placeholder="Digite o seu texto" class="digite"></textarea>
+                
+            </section>
+            <section>
+                <ul class="mostra-textos"> 
+                    <li><textarea class="resposta"></textarea></li>                    
+                    <li class="texto-mensagem">Nenhuma mensagem encontrada</li>
+                    <li class="texto-deseja">Digite um texto que você deseja criptografar ou descriptografar.</li>                    
+                </ul>             
+                <img src="exclamacao.png" class="exclamacao" alt="imagem do ponto de exclamação ">
+                <p class="dica">Apenas letras minúsculas sem acento.</p><br>            
+                <div>                    
+                    <button class="criptografar">Criptografar</button>
+                    <button class="descriptografar">Descriptografar</button>
+                </div> 
+                <button class="apagar">Apagar</button>                    
+            </section>
+        </main>  
+        <footer>
+            <p class="copyright">&copy; - Paulo Roberto J. Rodrigues.</p>
+        </footer>
+        <script src="script.js"></script>      
+    </body>
+</html>
